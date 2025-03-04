@@ -1,9 +1,15 @@
 import React from 'react';
 import Players from '../component/playersAddArea';
+import spy from "../assets/backspygame.jpg"
 
 function PlayerPage() {
   return (
-    <div className="min-h-screen bg-gray-900 bg-opacity-95 backdrop-blur-md flex flex-col items-center justify-center p-6">
+    <div
+    className="min-h-screen bg-gray-900 bg-opacity-95 backdrop-blur-md flex flex-col items-center justify-center p-6 bg-cover bg-center bg-no-repeat"
+    style={{ backgroundImage: `url(${spy})` }}
+  >
+  
+
       {/* Title with spy-themed styling */}
       <h1 className="text-5xl md:text-6xl font-bold text-white drop-shadow-lg mb-10 tracking-wider animate-pulse">
         <span className="text-red-500">SPY</span> GAME
