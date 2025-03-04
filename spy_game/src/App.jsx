@@ -4,7 +4,7 @@ import PlayerPage from './pages/playerPage'
 import PlayersShowing from './pages/playersShowing'
 import TopicSelectionPage from './pages/TopicSelectionPage'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
-import FinalPage from './pages/finalPage'
+import FinalPage from './pages/FinalPage'
 
 
 function App() {
